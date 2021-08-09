@@ -30,7 +30,7 @@ IMPORTANT ENDPOINTS
 3. localhost:8080/upload (POST)
    - Posts 
       title, description as strings
-      file  as Multipart file
+       AND file  as Multipart file
    - Validates the email, NID and phone columns of the file and adds 3 extra columns for validity status.
    - Uploads the file to AWS cloud storage (S3) and returns the details of the AWS S3 metadata and the db row added for the upload created including the file ID
 
